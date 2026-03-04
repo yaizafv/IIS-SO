@@ -1,0 +1,16 @@
+121         //Tamaño del programa
+// Inicializar impar actual = 101
+ADD 0 101
+// Guardar en memoria[122]
+WRITE 122
+// ----BUCLE----
+MEMADD 122 2        // AC = MEM[122] + 2
+WRITE 122
+// Comprobar si AC == 121 (lo que significa que ya pasamos de 120)
+MEMADD 122 -121     // AC = MEM[122] - 121
+ZJUMP 4     // si AC == 0 -> saltar al HALT
+READ 122    // restaurar el impar actual
+// Guardar impar_actual en memoria[122]
+WRITE 122
+JUMP -6     // volver al inicio del bucleS
+HALT
