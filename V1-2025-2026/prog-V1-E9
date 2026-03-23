@@ -1,7 +1,0 @@
-3
-5
-ADD 1 1
-INC 2
-NOP
-INC 7
-HALT
