@@ -1,0 +1,14 @@
+5, RD, 10 // Al efectuar TRAP 7 se guarda el operando 2 en el registro D
+6, PCB_ST, 3, 0 // En el instante 6 el status del PCB de PID 0 contiene el valor 3 (BLOCKED).
+14, RD, 100 // Al efectuar TRAP 7 se guarda el operando 2 en el registro D
+17, PCB_ST, 3, 1 // En el instante 17 el status del PCB de PID 0 contiene el valor 3 (BLOCKED).
+58, PCB_ST, 2, 0 // En el instante 58 el status del PCB de PID 0 contiene el valor 2 (EXECUTING).
+58, XPID, 0
+58, PSW, 4
+59, PC, 3
+62, XPID, 3
+517, PCB_ST, 2, 1 // En el instante 58 el status del PCB de PID 0 contiene el valor 2 (EXECUTING).
+518, XPID, 1
+518, PSW, 4
+519, PC, 3
+522, XPID, 3

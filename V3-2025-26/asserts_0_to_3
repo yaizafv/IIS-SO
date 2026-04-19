@@ -1,0 +1,116 @@
+1, PCB_ST, 2, 5
+1, PCB_ST, 1, 4
+1, PCB_ST, -1, 0
+1, XPID, 5
+2, PCB_ST, 2, 5
+2, PCB_ST, 1, 4
+2, PCB_ST, -1, 0
+2, XPID, 5
+3, PCB_ST, 2, 5
+3, PCB_ST, 1, 4
+3, PCB_ST, -1, 0
+3, XPID, 5
+4, PCB_ST, 2, 5
+4, PCB_ST, 1, 4
+4, PCB_ST, -1, 0
+4, XPID, 5
+5, PCB_ST, 2, 5
+5, PCB_ST, 1, 4
+5, PCB_ST, -1, 0
+5, XPID, 5
+7, PCB_ST, 4, 5
+7, PCB_ST, 2, 4
+7, PCB_ST, -1, 0
+7, XPID, 4
+8, PCB_ST, 4, 5
+8, PCB_ST, 2, 4
+8, PCB_ST, -1, 0
+8, XPID, 4
+10, PCB_ST, 4, 5
+10, PCB_ST, 1, 4
+10, PCB_ST, 2, 0
+10, XPID, 0
+11, PCB_ST, 4, 5
+11, PCB_ST, 1, 4
+11, PCB_ST, 2, 0
+11, XPID, 0
+13, PCB_ST, 4, 5
+13, PCB_ST, 1, 4
+13, PCB_ST, 2, 0
+13, XPID, 0
+14, PCB_ST, 4, 5
+14, PCB_ST, 1, 4
+14, PCB_ST, 2, 0
+14, XPID, 0
+15, PCB_ST, 4, 5
+15, PCB_ST, 1, 4
+15, PCB_ST, 2, 0
+15, XPID, 0
+17, PCB_ST, 4, 5
+17, PCB_ST, 1, 4
+17, PCB_ST, 2, 0
+17, XPID, 0
+18, PCB_ST, 4, 5
+18, PCB_ST, 1, 4
+18, PCB_ST, 2, 0
+18, XPID, 0
+19, PCB_ST, 4, 5
+19, PCB_ST, 1, 4
+19, PCB_ST, 2, 0
+19, XPID, 0
+20, PCB_ST, 4, 5
+20, PCB_ST, 1, 4
+20, PCB_ST, 2, 0
+20, XPID, 0
+22, PCB_ST, 4, 5
+22, PCB_ST, 1, 4
+22, PCB_ST, 2, 0
+22, XPID, 0
+23, PCB_ST, 4, 5
+23, PCB_ST, 1, 4
+23, PCB_ST, 2, 0
+23, XPID, 0
+24, PCB_ST, 4, 5
+24, PCB_ST, 1, 4
+24, PCB_ST, 2, 0
+24, XPID, 0
+26, PCB_ST, 4, 5
+26, PCB_ST, 2, 4
+26, PCB_ST, 4, 0
+26, XPID, 4
+27, PCB_ST, 4, 5
+27, PCB_ST, 2, 4
+27, PCB_ST, 4, 0
+27, XPID, 4
+29, PCB_ST, 4, 5
+29, PCB_ST, 2, 4
+29, PCB_ST, 4, 0
+29, XPID, 4
+30, PCB_ST, 4, 5
+30, PCB_ST, 2, 4
+30, PCB_ST, 4, 0
+30, XPID, 4
+32, PCB_ST, 4, 5
+32, PCB_ST, 2, 4
+32, PCB_ST, 4, 0
+32, XPID, 4
+33, PCB_ST, 4, 5
+33, PCB_ST, 2, 4
+33, PCB_ST, 4, 0
+33, XPID, 4
+34, PCB_ST, 4, 5
+34, PCB_ST, 2, 4
+34, PCB_ST, 4, 0
+34, XPID, 4
+36, PCB_ST, 4, 5
+36, PCB_ST, 4, 4
+36, PCB_ST, 4, 0
+36, XPID, -1
+37, PCB_ST, 4, 5
+37, PCB_ST, 4, 4
+37, PCB_ST, 4, 0
+37, XPID, -1
+38, PCB_ST, 4, 5
+38, PCB_ST, 4, 4
+38, PCB_ST, 4, 0
+38, XPID, -1

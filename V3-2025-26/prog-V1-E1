@@ -1,0 +1,18 @@
+150         //Tamaño del programa
+12
+// Inicializar impar actual = 101
+INC 101 0 
+// Guardar en memoria[122] el valor del registro ACC
+WRITE 122 0
+// --- BUCLE ---
+DIV 0 1     // Ponemos el ACC a 0 otra vez
+INC 2 0     // AC = AC + 2
+MEMADD 122 0    // AC = MEM[122] + AC
+WRITE 122 0     // MEM[122] = ACC
+//Comprobar si AC == 121 (lo que significa que ya pasamos de 120)
+INC -121 0          // AC = AC - 121
+ZJUMP 3             // si AC == 0 -> saltar al HALT
+READ 122 0          // Restaurar el impar actual de memoria al ACC
+JUMP -7             // volver al inicio de bucles
+HALT
+TRAP 3
