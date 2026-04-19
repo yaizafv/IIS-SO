@@ -1,0 +1,7 @@
+3, RD, -2 // Al efectuar TRAP 7 se guarda el operando 2 en el registro D
+6, PCB_ST, 3, 0 // En el instante 6 el status del PCB de PID 0 contiene el valor 3 (BLOCKED).
+3, XPID, 0 // Se esta ejecutando el programSleepingForAWhile
+5, XPID, 1 // Se pasó a bloqueado y ahora sale el prog-V1-E1
+8, PSW, 32898 // Masked bit, Execution Bit y zero
+12, PSW, 32896 // Masked bit y Execution bit
+222, XPID, 3 // Se acabo el prog-V1-E1 y ahora está el SIP

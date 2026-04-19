@@ -1,0 +1,5 @@
+10 
+3 
+ADD -5 0 
+TRAP 7 10  // Sleep with delay 2
+TRAP 3
