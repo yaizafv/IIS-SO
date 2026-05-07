@@ -1,0 +1,22 @@
+Yaiza Fernández Vega
+UO301762
+
+Simulaciones usadas para probar el funcionamiento:
+
+./Simulator --debugSections=A --numAsserts=1200 --assertsFile=asserts_test_1 --daemonsProgramsFile=teachersDaemonsTest --numProcesses=6 test1-1 100
+
+./Simulator --debugSections=A --numAsserts=1200 --assertsFile=asserts_test_1 --daemonsProgramsFile=teachersDaemonsTest --numProcesses=6 test1-1 100 test1-2 110 | 
+grep -e ERROR -e exception -e invalid -e assigned -e released -e thrown -e END
+
+./Simulator --assertsFile=asserts_test_2  test2-1 10 test2-2 30 iDontExist 350
+
+./Simulator --assertsFile=asserts_test_2  test2-1 10 test2-2 30 iDontExist 350 | grep -e ERROR -e exception -e invalid -e assigned -e released -e thrown -e END
+
+./Simulator --assertsFile=asserts_test_3 --numProcesses=8 --initialPID=5 --daemonsProgramsFile=daemonsFileTest3 test3-1 10 test3-2 11 test3-3 12
+
+./Simulator --assertsFile=asserts_test_3 --numProcesses=8 --initialPID=5 --daemonsProgramsFile=daemonsFileTest3 test3-1 10 test3-2 11 test3-3 12 | 
+grep -e ERROR -e exception -e invalid -e assigned -e released -e thrown -e END -e transfer
+
+./Simulator --assertsFile=asserts_test_4  test4-1 10 test4-2 11
+
+./Simulator --assertsFile=asserts_test_4  test4-1 10 test4-2 11 | grep -e transfer -e MOV -e ADD -e assigned -e released -e END

@@ -1,0 +1,5 @@
+10
+1
+ADD -5 0 
+JUMPY 1 // No existe
+TRAP 3

@@ -1,0 +1,4 @@
+10
+1
+READ 15 1 // Falla para el user
+DIV 1 0 // Falla para el daemon
